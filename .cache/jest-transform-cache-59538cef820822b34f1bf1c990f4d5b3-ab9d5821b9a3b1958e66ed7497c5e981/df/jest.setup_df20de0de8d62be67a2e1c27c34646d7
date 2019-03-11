@@ -1,0 +1,9 @@
+a66f7cd796f1d56dc5c3ea618eeb3b74
+// jest.setup.js
+
+// add some helpful assertions
+require('jest-extended');
+require('jest-dom/extend-expect');
+
+// this is basically: afterEach(cleanup)
+require('react-testing-library/cleanup-after-each');
